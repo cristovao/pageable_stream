@@ -1,12 +1,9 @@
 name: pageable_stream
 description: A Dart package that provides an efficient and easy-to-use implementation of paginated streaming. This package is designed to handle large datasets by loading them in chunks (pages) while providing a seamless Stream interface.
-version: 1.0.0
+version: 1.0.1
 homepage: https://github.com/cristovao/pageable_stream
 repository: https://github.com/cristovao/pageable_stream
 issue_tracker: https://github.com/cristovao/pageable_stream/issues
-# The following line prevents the package from being accidentally published to
-# pub.dev using `flutter pub publish`. This is preferred for private packages.
-# publish_to: none
 
 environment:
   sdk: ">=3.7.0 <4.0.0"

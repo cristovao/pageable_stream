@@ -63,7 +63,7 @@ class PageableStream<E> extends Stream<E> {
     var currentPage = -1;
 
     Future<void> loadPage() async {
-      if (position < 0 || (position >= length && length > 0)) {
+      if (position < 0 || _offset == 0 || (position >= length && length > 0)) {
         return;
       }
 
